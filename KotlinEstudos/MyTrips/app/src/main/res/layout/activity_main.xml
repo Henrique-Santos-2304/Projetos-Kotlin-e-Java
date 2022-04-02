@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/orange_600"
+        android:textColor="@color/colorTextDark"
+        android:text="@string/mytrip"
+        android:gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/orange_200"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="50dp"
+            >
+            <EditText
+                android:id="@+id/editDistance"
+                style="@style/inputsText"
+                android:hint="@string/distancia"
+                />
+            <TextView
+                style="@style/textDescriptionInput"
+                android:text="@string/selecione_a_dist_ncia"
+                tools:ignore="SmallSp" />
+            <EditText
+                android:id="@+id/editPrice"
+                style="@style/inputsText"
+                android:hint="@string/preco" />
+            <TextView
+                style="@style/textDescriptionInput"
+                android:text="@string/selecione_o_pre_o"
+                tools:ignore="SmallSp" />
+            <EditText
+                android:id="@+id/editAutonomy"
+                style="@style/inputsText"
+                android:hint="@string/autonomia" />
+            <TextView
+                style="@style/textDescriptionInput"
+                android:text="@string/selecione_a_autonomia"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:textAllCaps="true"
+                android:text="Seu gasto Total será de:"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp" />
+            <TextView
+                android:id="@+id/textResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:textAllCaps="true"
+                android:text="R$ 0,00"
+                android:textSize="43sp"
+                android:textColor="@color/orange_600"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText"
+                />
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:text="@string/calcular"
+                android:background="@drawable/round_btn"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

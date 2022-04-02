@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyTrips</string>
+    <string name="calcular">Calcular</string>
+    <string name="autonomia">Autonomia</string>
+    <string name="preco">Preço</string>
+    <string name="distancia">Distância</string>
+    <string name="selecione_a_autonomia">Kms por Litro</string>
+    <string name="selecione_o_pre_o">Preço por litro</string>
+    <string name="selecione_a_dist_ncia">Total de Quilometros</string>
+    <string name="mytrip">MyTrip</string>
+</resources>
