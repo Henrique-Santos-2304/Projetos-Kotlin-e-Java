@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Agenda</string>
+
+
+    <string name="btn_add_cliente">botão adicionar cliente</string>
+    <string name="btn_input_salvar">Salvar</string>
+    <string name="input_email">Email</string>
+    <string name="input_nome">Nome</string>
+    <string name="input_telefone">Telefone</string>
+    <string name="remover">Remover</string>
+
+    <string name="aluno_nome_list">Nome:  %1$s</string>
+    <string name="aluno_telefone_list">Telefone:  %1$s</string>
+    <string name="imagem_do_app">imagem do app</string>
+</resources>

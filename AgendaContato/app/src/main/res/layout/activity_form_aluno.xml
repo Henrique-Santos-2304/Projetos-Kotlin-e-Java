@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".project.ui.FormAlunoActivity">
+
+                <EditText
+                    android:id="@+id/activity_form_name_input"
+                    android:hint="@string/input_nome"
+                    style="@style/input_forms"
+                    android:layout_marginTop="24dp"
+                    android:inputType="textPersonName"
+                    android:autofillHints="" />
+                <EditText
+                    android:id="@+id/activity_form_telephone_input"
+                    android:hint="@string/input_telefone"
+                    style="@style/input_forms"
+                    android:inputType="phone"
+                    android:autofillHints="" />
+                <EditText
+                    android:id="@+id/activity_form_email_input"
+                    android:hint="@string/input_email"
+                    style="@style/input_forms"
+                    android:inputType="textEmailAddress"
+                    android:autofillHints="" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

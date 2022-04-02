@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/activity_main_lista_alunos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-2dp"
+        android:paddingVertical="22dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imagem_do_app"
+            app:srcCompat="@drawable/ic_action_novo_aluno" />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activity_main_float_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:clickable="true"
+        android:contentDescription="@string/btn_add_cliente"
+        android:focusable="true"
+        android:elevation="6dp"
+        android:src="@drawable/ic_action_novo_aluno" />
+
+
+
+</RelativeLayout>
