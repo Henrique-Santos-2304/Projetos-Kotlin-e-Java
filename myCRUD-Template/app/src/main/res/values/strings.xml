@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Meus Clientes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Clientes</string>
+    <string name="nav_header_subtitle">Henrique</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sair</string>
+
+    <string name="modelo_fragment">Cliente VIP DEMO</string>
+
+    <!-- Opções do Menu Lateral Drawer -->
+    <string name="fragmento_preto">Fragmento Preto</string>
+    <string name="titulo_preto">Preto</string>
+    <string name="fragmento_vermelho">Fragmento Vermelho</string>
+    <string name="titulo_vermelho">Vermelho</string>
+    <string name="fragmento_azul">Fragmento Azul</string>
+    <string name="titulo_azul">Azul</string>
+
+    <!-- Opções do Menu Principal -->
+    <string name="meu_perfil">Meu Perfil</string>
+    <string name="add_client">Adicionar Cliente</string>
+    <string name="title_add_new_client">Adicionar Novo Cliente</string>
+
+    //Placeholders input add Cliente
+    <string name="placeholder_name">Nome Completo</string>
+    <string name="placeholder_telephone">Telefone</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_cep">Cep</string>
+    <string name="placeholder_public_place">Logradouro</string>
+    <string name="placeholder_number">Número</string>
+    <string name="placeholder_district">Bairro</string>
+    <string name="placeholder_city">Cidade</string>
+    <string name="placeholder_state">Estado</string>
+    <string name="placeholder_terms">Termos de Uso</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="btn_save">SALVAR</string>
+    <string name="txtProfile">Perfil</string>
+    <string name="txtAdress">Endereço</string>
+    <string name="imageclientphoto">imageClientPhoto</string>
+    <string name="searchCliente">Pesquise um cliente...</string>
+
+</resources>

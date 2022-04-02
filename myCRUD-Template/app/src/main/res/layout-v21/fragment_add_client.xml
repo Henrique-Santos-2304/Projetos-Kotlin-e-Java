@@ -1,0 +1,201 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingVertical="10dp"
+    tools:context=".views.AddClient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="48dp">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingHorizontal="22dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0.8"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="6dp">
+
+                    <TextView
+                        android:id="@+id/txtProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/txtProfile"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlHardcoded" />
+
+                    <EditText
+                        android:id="@+id/inputName"
+                        style="@style/inputForms"
+                        android:autofillHints="name"
+                        android:hint="@string/placeholder_name"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/inputTel"
+                        style="@style/inputForms"
+                        android:autofillHints="phone"
+                        android:hint="@string/placeholder_telephone"
+                        android:inputType="phone" />
+
+                    <EditText
+                        android:id="@+id/inputEmail"
+                        style="@style/inputForms"
+                        android:autofillHints="emailAddress"
+                        android:hint="@string/placeholder_email"
+                        android:inputType="textEmailAddress" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+
+            <!--    Inputs de Endereço-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0.8"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="6dp">
+
+                    <TextView
+                        android:id="@+id/txtAdressForm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/txtAdress"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlHardcoded" />
+
+                    <EditText
+                        android:id="@+id/inputCep"
+                        style="@style/inputForms"
+                        android:autofillHints="postalCode"
+                        android:hint="@string/placeholder_cep"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/inputPublicPlace"
+                        style="@style/inputForms"
+                        android:autofillHints="postalAddress"
+                        android:hint="@string/placeholder_public_place"
+                        android:inputType="textNoSuggestions" />
+
+                    <EditText
+                        android:id="@+id/inputNumber"
+                        style="@style/inputForms"
+                        android:autofillHints="postalAddress"
+                        android:hint="@string/placeholder_number"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/inputDistrict"
+                        style="@style/inputForms"
+                        android:autofillHints="postalAddress"
+                        android:hint="@string/placeholder_district"
+                        android:inputType="textNoSuggestions" />
+
+                    <EditText
+                        android:id="@+id/inputCity"
+                        style="@style/inputForms"
+                        android:autofillHints="postalAddress"
+                        android:hint="@string/placeholder_city"
+                        android:inputType="textNoSuggestions" />
+
+                    <EditText
+                        android:id="@+id/inputState"
+                        style="@style/inputForms"
+                        android:autofillHints="postalAddress"
+                        android:hint="@string/placeholder_state"
+                        android:inputType="textNoSuggestions" />
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/checkTermsOfUse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:paddingRight="@dimen/padding_inputs"
+                        android:text="@string/placeholder_terms"
+                        android:textColor="@color/black"
+                        tools:ignore="RtlHardcoded,RtlSymmetry" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="18dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        android:backgroundTint="#f00"
+                        android:alpha="0.8"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/btn_cancel"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Button
+                        android:id="@+id/btnSave"
+                        android:backgroundTint="@color/black"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_save" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#311B92</color>
+    <color name="colorPrimaryDark">#278BDA</color>
+    <color name="colorAccent">#0969A7</color>
+
+
+    <color name="light">#787676</color>
+
+
+
+    <!-- cores do background das telas -->
+    <color name="vermelho">#6C1C16</color>
+    <color name="black">#1e1e1e</color>
+    <color name="white">#F8F8F8</color>
+    <color name="azul">#07487C</color>
+</resources>
